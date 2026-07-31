@@ -7,53 +7,31 @@ st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap');
 html, body, [class*="css"] { font-family: 'Poppins', sans-serif; }
-
 ::-webkit-scrollbar { width: 8px; }
-
 ::-webkit-scrollbar-track { background: #f1f1f1; }
-
 ::-webkit-scrollbar-thumb { background: #11998e; border-radius: 10px; }
-
 ::-webkit-scrollbar-thumb:hover { background: #38ef7d; }
-
 .stApp { background: linear-gradient(135deg, #f8f9fa 0%, #eef2f3 100%); }
-
 .app-header { text-align: center; padding: 20px 0 10px 0; animation: fadeInDown 1s ease-out; }
-
 .app-header h1 { background: linear-gradient(to right, #11998e, #38ef7d); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3.5rem; font-weight: 700; margin: 0; }
-
 .app-header p { color: #6c757d; font-size: 1.1rem; letter-spacing: 1px; margin-top: 5px; }
-
 .sidebar-profile { text-align: center; padding: 15px 0; margin-bottom: 20px; border-bottom: 1px solid rgba(0,0,0,0.1); }
-
 .sidebar-profile img { width: 90px; filter: drop-shadow(0px 8px 15px rgba(17, 153, 142, 0.4)); margin-bottom: 15px; animation: pulse 2s infinite; }
-
 .sidebar-profile h3 { background: linear-gradient(135deg, #11998e, #38ef7d); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 700; margin: 0; font-size: 1.5rem; }
-
 .sidebar-profile p { color: #888; font-size: 0.85rem; margin-top: 5px; }
-
 .surah-header-card { background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); border-radius: 20px; padding: 30px; text-align: center; color: white; margin-bottom: 40px; box-shadow: 0 15px 35px rgba(15, 32, 39, 0.3); animation: zoomIn 1s ease-out; position: relative; overflow: hidden; }
-
 .surah-header-card h2 { font-family: 'Amiri', serif; font-size: 3.5rem; color: #f1c40f; margin: 0; text-shadow: 0 4px 10px rgba(0,0,0,0.5); }
-
 .surah-header-card h3 { font-size: 1.8rem; font-weight: 600; margin: 5px 0 15px 0; }
-
 .surah-info-badges { display: flex; justify-content: center; gap: 15px; margin-top: 15px; }
-
 .s-badge { background: rgba(255,255,255,0.15); backdrop-filter: blur(5px); padding: 8px 20px; border-radius: 30px; font-size: 0.9rem; border: 1px solid rgba(255,255,255,0.2); }
-
 .ayah-container { background: rgba(255, 255, 255, 0.9); border: 1px solid rgba(17, 153, 142, 0.15); border-radius: 20px; padding: 35px; margin-bottom: 25px; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.03); transition: all 0.3s ease; animation: slideUpFade 0.6s ease-out forwards; }
-
 .ayah-container:hover { transform: translateY(-5px); box-shadow: 0 15px 35px rgba(17, 153, 142, 0.15); border-color: #38ef7d; }
-
-.ayah-badge { background: linear-gradient(135deg, #11998e, #38ef7d); color: white; padding: 6px 18px; border-radius: 20px; font-weight: 600; font-size: 0.9rem; display: inline-block; margin-bottom: 极好的，我将继续完成这个代码编辑任务。
-
+.ayah-badge { background: linear-gradient(135deg, #11998e, #38ef7d); color: white; padding: 6px 18px; border-radius: 20px; font-weight: 600; font-size: 0.9rem; display: inline-block; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(17,153,142,0.3); }
+.arabic-text { font-family: 'Amiri', serif; font-size: 2.8rem; color: #1a1a2e; text-align: right; direction: rtl; line-height: 2.2; margin-bottom: 20px; }
+.translation-text { font-size: 1.2rem; color: #4a4e69; line-height: 1.8; border-top: 1px solid rgba(0,0,0,0.05); padding-top: 20px; margin-top: 10px; }
 @keyframes fadeInDown { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
-
 @keyframes zoomIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
-
 @keyframes slideUpFade { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
-
 @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
 </style>
 """, unsafe_allow_html=True)
